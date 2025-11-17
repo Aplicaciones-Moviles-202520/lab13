@@ -1,4 +1,4 @@
-## Laboratorio 9: Vulnerabilidades de Seguridad Comunes en Aplicaciones Web y Móviles
+## Laboratorio 13: Vulnerabilidades de Seguridad Comunes en Aplicaciones Web y Móviles
 
 En este laboratorio veremos algunas de las vulnerabilidades más comunes que han sido históricamente incorporadas a los rankings del Open Web Application Security Project (OWASP). Estas incluyen _Cross-Site Request Forgery_ (CSRF), _Cross-Site Scripting_ (XSS), _XML External Entity_ (XEE), e inyección SQL. Para demostrar estas vulnerabilidades, usaremos una aplicación web basada en Rails. Si bien se trata de una aplicación web, algunas de estas vulnerabilidades pueden estar presentes también en aplicaciones de cliente híbrido, por ejemplo, basadas en React Native.
 
