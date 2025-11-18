@@ -213,7 +213,7 @@ SELECT * FROM users WHERE username = '' OR '1'='1';
 
 Esto altera la consulta original y devuelve todos los registros de la tabla users, ya que la condición `'1'='1'` siempre es verdadera. De esta forma, el atacante podría saltarse la autenticación o acceder a datos a los que no debería tener acceso.
 
-Para realizar una inyección SQL con nuestra aplicación, puedes abrir la página de búsqueda de usuarios en [http://localhost:3000/search](http://localhost:3000/search) y buscar:
+Para realizar una inyección SQL con nuestra aplicación, puedes abrir la página de búsqueda de usuarios en [http://localhost:3000/search](http://localhost:3000/users/search) y buscar:
 
 * Primero busca con una palabra clave válida para ver el resultado, busca "john".
 * Ahora, vuelve a la página de búsqueda e ingresa en el campo de búsqueda lo siguiente:
